@@ -1,0 +1,35 @@
+.photo-1 img{
+height: 600px;
+}
+.calculation-part{
+    background-image: linear-gradient(to right, #870000, #190a05);
+}
+.error-text{
+    display: none;
+    border-radius: 30px;
+    background-color: red;
+    background-image:
+      linear-gradient(
+        red, #f06d06
+      );
+}
+.error-text-1{
+    display: none;
+    margin-left: 50px;
+    border-radius: 30px;
+    background-color: red;
+    background-image:
+      linear-gradient(
+        red, #f06d06
+      );
+    
+}
+.error-text-2{
+    display: none;
+    border-radius: 30px;
+    background-color: red;
+    background-image:
+      linear-gradient(
+        red, #f06d06
+      );
+}
