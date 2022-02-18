@@ -1,4 +1,4 @@
-// Get Total Expenses
+// Get Total Expenses-----------
 function getTotalExpenses() {
 
     const foodCost = parseInt(document.getElementById('food-cost').value);
@@ -18,7 +18,7 @@ function getTotalExpenses() {
         }
     }
 
-    // calculating balance 
+    // -------calculating balance--------------
 }
 document.getElementById('calculation').addEventListener('click', function () {
     const totalIncome = parseInt(document.getElementById('total-income').value);
@@ -35,7 +35,7 @@ document.getElementById('calculation').addEventListener('click', function () {
 
 
 })
-// Calculating saving amount 
+// -------------Calculating saving amount 
 document.getElementById('save-btn').addEventListener('click', function () {
     let savingPercent = parseInt(document.getElementById('save-input').value) / 100;
     let totalIncome = parseInt(document.getElementById('total-income').value)
